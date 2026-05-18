@@ -1,0 +1,24 @@
+#theme-dark {
+    color: gray;
+}
+
+.text {
+    color: white;
+}
+div p span {
+    color: yellow;
+}
+
+.text span {
+    color: red;
+}
+
+button {
+    color: orange;
+}
+
+button {
+    color: green;
+}
+
+
