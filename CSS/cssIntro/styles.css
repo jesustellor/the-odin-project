@@ -1,0 +1,27 @@
+p.highlight {
+    color: green;
+}
+p, #action-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #fff;
+}
+
+div h2{
+    color: yellow;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    background-color: #444
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2f2f2f;
+}
