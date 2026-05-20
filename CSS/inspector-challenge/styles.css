@@ -1,0 +1,14 @@
+
+    .container {
+            text-align: left; 
+        }
+   
+        .text-box {
+            color: red !important;
+            text-align: center;
+        }
+   
+        /* A hidden selector that might be causing trouble */
+        div p {
+            color: blue;
+        }
