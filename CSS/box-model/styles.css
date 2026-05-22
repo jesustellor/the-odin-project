@@ -1,0 +1,41 @@
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.cardA {
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+    padding: 30px;
+    border: 10px solid black;
+    margin: 10px 0px;
+    box-sizing: content-box;
+}
+
+.cardB {
+    margin: 5px 0px; /* margin: collapses to exactly 10px the max of the two */
+    background-color: red;
+    width: 300px;
+    height: 150px;
+    padding: 30px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 800px;
+    margin: 20px auto;
+}
+
+    .flex-container:hover * {
+        outline: 1px solid red;
+    }
